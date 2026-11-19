@@ -1,2 +1,2 @@
-window.JOURNALGRADE_STORE_URL = ""; // Set the approved Chrome Web Store URL after publication.
+window.JOURNALGRADE_STORE_URL = "https://chromewebstore.google.com/detail/bblajjjclcikmlhifadiincdlbdoglgc";
 document.addEventListener("DOMContentLoaded",()=>{const a=document.querySelector("[data-store-link]");if(!a)return;if(window.JOURNALGRADE_STORE_URL){a.href=window.JOURNALGRADE_STORE_URL;a.textContent="Add to Chrome";a.classList.remove("disabled");}else{a.href="#install";a.textContent="Chrome Web Store listing coming soon";a.setAttribute("aria-disabled","true");}});
